@@ -6,6 +6,7 @@
 #define size 32
 
 int **allocatedMatrix(){
+	
 	int **matrix;
 	matrix=(int **)malloc(size*sizeof(int *));
 	for(int i=0;i<size;i++)
